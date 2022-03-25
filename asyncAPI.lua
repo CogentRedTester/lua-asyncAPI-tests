@@ -31,6 +31,7 @@ end
 
 for channel, APIs in pairs(channels) do
     print()
+    print("--------------------------------------")
     print( ("Channel: \t%s"):format(channel) )
 
     print("Publishers:")
